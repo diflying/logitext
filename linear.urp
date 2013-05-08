@@ -1,0 +1,13 @@
+allow url http://localhost/logitext/style.css
+rewrite all Linear/*
+library haskell
+library meta
+library js
+clientOnly Linear.renderProof
+clientOnly Linear.renderSequent
+
+$/option
+$/list
+$/monad
+common
+linear
